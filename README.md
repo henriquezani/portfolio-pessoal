@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img alt="Logo" src="public/Logo.png" width="100" />
+</div>
+<h1 align="center">
+  henriquezani.com
+</h1>
+<p align="center">
+  A minha primeira versão do meu portfólio <a href="https://henriquezani.com" target="_blank">henriquezani.com</a> construído com <a href="https://www.nextjs.org/" target="_blank">Next.Js</a> e hospedado na <a href="https://www.vercel.com/" target="_blank">Vercel</a>
+</p>
 
-## Getting Started
 
-First, run the development server:
+## Como usar 🔧
+
+Na linha de comando, clone o Portfólio:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clonar o repositório
+$ git clone https://github.com/henriquezani/porfolio
+
+# Mover para dentro do repositório
+$ cd portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Depois, você pode instalar as dependências usando NPM ou Yarn.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Usando o NPM: Basta executar os comandos abaixo.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+# Instalar as dependências
+$ npm install
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Iniciar o servidor de desenvolvimento
+$ npm run dev
+```
 
-## Learn More
+Usando o Yarn: Esteja ciente de que você precisará deletar o arquivo `package-lock.json` antes de executar os comandos abaixo.
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Instalar as dependências
+$ yarn install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Iniciar o servidor de desenvolvimento
+$ yarn dev
+```
+## Deployment 📦
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Assim que terminar sua configuração. Você precisa colocar seu site online!
 
-## Deploy on Vercel
+Projetos que usam Next.js, são melhores hospedados na [Vercel](https://vercel.com) porque é super fácil e performático.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tecnologias usadas 🛠️
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [React.Js](https://reactjs.org/) - Uma biblioteca JavaScript para construir interfaces de usuário
+- [Next.Js](https://nextjs.org/) - Um framework do React para Produção
+- [Styled Components](https://styled-components.com/) - CSS no javascript
+- [ScrollReveal.js](https://scrollrevealjs.org/) - JavaScript biblioteca
+- [React Transition Group](https://reactcommunity.org/react-transition-group/) - React biblioteca para transições
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
