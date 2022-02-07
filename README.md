@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="public/Logo.png" height="250px" width="250px" />
+  <img alt="Logo" src="public/Logo.png" height="150px" width="150px" />
 </div>
 <h1 align="center">
   henriquezani.com
