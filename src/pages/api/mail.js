@@ -1,12 +1,10 @@
-// require('dotenv').config()
 const mail = require('@sendgrid/mail')
 
 const SENDGRID_API = process.env.SENDGRID_API_KEY;
 
 mail.setApiKey(SENDGRID_API)
 
-const sendEmail = async (req, res) => {
-    try{
+const sendEmail = (req, res) => {
         const body = JSON.parse(req.body)
     
         const message = `
@@ -23,11 +21,7 @@ const sendEmail = async (req, res) => {
             html: message.replace(/\r\n/g, '<br>')
         }
 
-        await mail.send(data)
-
-    }catch(error){
-        return res.status(error.statusCode || 500).json({ error: error.message });
-    }
+        mail.send(data)
 
     res.status(200).json({status: 'Ok', error: 'Erro'})
 }
