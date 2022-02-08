@@ -45,10 +45,9 @@ module.exports = {
             title: 'Portfolio',
             description: 'Um portfólio pessoal é uma coleção de registros que refletem suas habilidades, experiências e atributos. Mostra a sua personalidade para um potencial empregador.',
             tech: ['React', 'Next.js', 'Styled Components', 'Vercel'],
-            githubLink: 'https://github.com/henriquezani/',
-            external: 'https://github.com/henriquezani/',
+            githubLink: 'https://github.com/henriquezani/portfolio-pessoal',
+            external: 'https://henriquezani.com',
             img: PortfolioImg,
-            
         },
         {
             title: 'Spotify Profile',
