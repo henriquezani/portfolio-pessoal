@@ -2,7 +2,7 @@
   <img alt="Logo" src="public/Logo.png"  width="150px" />
 </div>
 <h1 align="center">
-  henriquezani.com
+  https://henriquezani.com/
 </h1>
 <p align="center">
   A minha primeira versão do meu portfólio <a href="https://henriquezani.com" target="_blank">henriquezani.com</a> construído com <a href="https://www.nextjs.org/" target="_blank">Next.Js</a> e hospedado na <a href="https://www.vercel.com/" target="_blank">Vercel</a>
