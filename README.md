@@ -7,7 +7,9 @@
 <p align="center">
   A minha primeira versão do meu portfólio <a href="https://henriquezani.com" target="_blank">henriquezani.com</a> construído com <a href="https://www.nextjs.org/" target="_blank">Next.Js</a> e hospedado na <a href="https://www.vercel.com/" target="_blank">Vercel</a>
 </p>
-
+<div align="center">
+    <img alt="Og" src="public/og.png">
+</div>
 
 ## Como usar 🔧
 
