@@ -361,7 +361,7 @@ export default function Featured(){
 
                                     <h3 className="project-title">
                                         <a 
-                                          href={project.githubLink}
+                                          href={project.external}
                                           target="_blank" 
                                           rel="noreferrer"
                                         >
@@ -407,7 +407,7 @@ export default function Featured(){
 
                             <div className="project-image">
                                 <a 
-                                  href={project.githubLink}
+                                  href={project.external}
                                   target="_blank"  
                                   rel="noreferrer"
                                 >
