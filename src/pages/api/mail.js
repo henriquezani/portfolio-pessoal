@@ -21,9 +21,9 @@ const sendEmail = (req, res) => {
             html: message.replace(/\r\n/g, '<br>')
         }
 
-        mail.send(data)
-
-    res.status(200).json({status: 'Ok', error: 'Erro'})
+        mail.send(data).then(() => {
+            res.status(200).json({status: "Ok"})
+        })
 }
 
 export default sendEmail

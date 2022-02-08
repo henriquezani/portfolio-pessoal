@@ -51,7 +51,7 @@ const ContactModal = ({isOpen, onRequestClose}) => {
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
 
-    async function handleCreateModal(e){
+    function handleCreateModal(e){
         e.preventDefault();
 
         const data = {
@@ -61,7 +61,7 @@ const ContactModal = ({isOpen, onRequestClose}) => {
         }
         
 
-        const send = await fetch('/api/mail', {
+        const send = fetch('/api/mail', {
             method: 'post',
             body: JSON.stringify(data)
         })
