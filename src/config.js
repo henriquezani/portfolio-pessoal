@@ -1,7 +1,7 @@
 import React from 'react'
 import PortfolioImg from './images/portfolioImg.png'
 import SpotifyImg from './images/spotifyProfile.png'
-
+import DtmoneyImg from './images/dtmoney.png'
 
 
 
@@ -65,12 +65,12 @@ module.exports = {
             img: SpotifyImg
         },
         {
-            title: 'Portfolio',
-            description: 'A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.',
-            tech: ['VS Code', 'Sublime', 'Text', 'Atom', 'iTerm2', 'Hyper'],
-            githubLink: 'https://github.com/henriquezani/',
-            external: 'https://github.com/henriquezani/',
-            img: PortfolioImg
+            title: 'Dtmoney',
+            description: 'Um aplicativo web para gerenciar suas entradas e saídas usando uma API criada com Mirage.js.',
+            tech: ['React', 'TypeScript', 'Styled Components', 'Mirage.js', 'Axios'],
+            githubLink: 'https://github.com/henriquezani/dtmoney',
+            external: 'https://github.com/henriquezani/dtmoney',
+            img: DtmoneyImg
         }
     ],
 
